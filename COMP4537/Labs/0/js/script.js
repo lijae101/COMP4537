@@ -82,8 +82,8 @@ class ButtonManager {
                 const maxX = windowWidth - buttonWidth; 
                 const maxY = windowHeight - buttonHeight;
 
-                const x = Math.random() * (maxX); // maxX is already the right boundary
-                const y = Math.random() * (maxY); // maxY is already the bottom boundary
+                const x = Math.random() * (maxX); 
+                const y = Math.random() * (maxY);
                 button.setPosition(x, y);
                 });
 

@@ -1,0 +1,35 @@
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #c65e5e;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+#remove-note {
+    background-color: #e07c7c;
+    color: #fff;
+}
+
+textarea {
+    width: 40%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+#add-note {
+    background-color: #7ce0a9;
+    color: #fff;
+}
